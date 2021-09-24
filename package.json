@@ -1,9 +1,13 @@
 {
-  "name": "StreamStory",
+  "name": "streamstory",
   "version": "0.1.0",
   "description": "StreamStory",
   "main": "main.js",
   "scripts": {
+    "build": "./scripts.sh build",
+    "start": "./scripts.sh start",
+    "log": "./scripts.sh log",
+    "stop": "./scripts.sh stop",
     "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
   },
   "repository": "",
